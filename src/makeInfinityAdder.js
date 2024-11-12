@@ -15,11 +15,7 @@ function makeInfinityAdder() {
       return res;
     }
 
-    if (argument === 0) {
-      return adder;
-    }
-
-    if (argument) {
+    if (argument >= 0) {
       sum += argument;
 
       return adder;
